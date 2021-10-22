@@ -233,6 +233,9 @@
     .num{
         margin-right: 39%;
     }
+    .mechanism-page{
+        min-height:50vh;
+    }
     .mechanism-title{
         font-size: 21px;
     }
