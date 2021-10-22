@@ -1,0 +1,439 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 400.98px) {
+    .links{
+        display: none;
+    }
+    .toggle{
+        display: block;
+        text-align: center;
+        margin-right:10% ;
+    }
+    .toggle:hover .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .interface{
+       flex-direction: column;
+       justify-content: center;
+       padding: 40px;
+    }
+    .content{
+        padding-right: 20px;
+        margin-bottom: 30px;
+    }
+    .title{
+        margin-top: 40px;
+        font-size: 15px;
+    }
+    .pargraph{
+        font-size: 9px;
+    }
+    .btn{
+    margin-right: 26%;
+    }
+    .img{
+        height: 250px;
+        width: 250px;
+        margin-left: 15px;
+    }
+    .box{
+        margin-bottom: 20px;
+        width: 90%;
+        height:auto;
+    }
+    .feature-image{
+        height: 50px;
+        width: 60px;
+    }
+    .box-feature{
+        font-size: 20px;
+    }
+    .feature-explain{
+        font-size: 11px;
+    }
+    .box2{
+        margin: 0 0 20px 0;
+    }
+    .feature-title{
+        margin-bottom: 10px;
+    }
+    .part{
+        width: 100%;
+    }
+    .part2{
+        margin: 0;
+    }
+    .num{
+        margin-right: 41%;
+    }
+    .mechanism-title{
+        font-size: 21px;
+    }
+    .mechanism-explain{
+        font-size: 12px;
+    }
+    .area{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .area2{
+        margin: 0 0 20px 0;
+    }
+    .area-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .space{
+        height: 270px;
+    }
+    .footer-image{
+        height: 270px;
+    }
+}
+@media (min-width: 401px) and (max-width: 575.98px){
+        .links{
+            display: none;
+        }
+        .toggle{
+            display: block;
+            text-align: center;
+            margin-right: 20%;
+        }
+        .interface{
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+        }
+        .content{
+            padding-right: 20px;
+            margin-bottom: 30px;
+        }
+        .title{
+            margin-top: 40px;
+            font-size: 22px;
+        }
+        .pargraph{
+            font-size: 12px;
+        }
+        .btn{
+            margin-right: 26%;
+        }
+        .img{
+            height: 300px;
+            width: 300px;
+            margin-left: 15px;
+        } 
+        .box{
+            margin-bottom: 20px;
+            width: 70%;
+            height:auto;
+        }
+        .feature-image{
+            height: 50px;
+            width: 60px;
+        }
+        .box-feature{
+            font-size: 20px;
+        }
+        .feature-explain{
+            font-size: 11px;
+        }
+        .box2{
+            margin: 0 0 20px 0;
+        }
+        .feature-title{
+            margin-bottom: 10px;
+        }
+        .part{
+            width: 100%;
+        }
+        .part2{
+            margin: 0;
+        }
+        .num{
+            margin-right: 44%;
+        }
+        .mechanism-title{
+            font-size: 26px;
+        }
+        .mechanism-explain{
+            font-size: 14px;
+        }
+        .area{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .area2{
+            margin: 0 0 20px 0;
+        }
+        .area-title{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .space{
+            height: 270px;
+        }
+        .footer-image{
+            height: 300px;
+        }
+    }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .interface{
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+    }
+    .content{
+        padding-right: 20px;
+        margin-bottom: 30px;
+    }
+    .title{
+        margin-top: 40px;
+        font-size: 26px;
+    }
+    .pargraph{
+        font-size: 14px;
+    }
+    .btn{
+        margin-right: 30%;
+    }
+    .img{
+        height: 300px;
+        width: 400px;
+        margin-left: 15px;
+    }
+    .box{
+        margin-bottom: 20px;
+        width: 70%;
+        height:auto;
+    }
+    .feature-image{
+        height: 50px;
+        width: 60px;
+    }
+    .box-feature{
+        font-size: 20px;
+    }
+    .feature-explain{
+        font-size: 11px;
+    }
+    .box2{
+        margin: 0 0 20px 0;
+    } 
+    .part{
+        width: 45%;
+    }
+    .part2{
+        margin: 0;
+    }
+    .num{
+        margin-right: 39%;
+    }
+    .mechanism-title{
+        font-size: 21px;
+    }
+    .mechanism-explain{
+        font-size: 12px;
+    }
+    .area{
+        width: 44%;
+        margin-bottom: 20px;
+    }
+    .area2{
+        margin:0 0 20px 0;
+    }
+    .area-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .space{
+        height: 270px;
+    }
+    .last-image{
+        margin-top: 35px;
+    }
+    .footer-image{
+        height: 300px;
+    }
+ 
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .content{
+        padding-right: 20px;
+        margin-bottom: 30px;
+    }
+    .title{
+        margin-top: 40px;
+        font-size: 22px;
+    }
+    .pargraph{
+        font-size: 12px;
+    }
+    .btn{
+        margin-right: 35%;
+    }
+    .img{
+        height: 250px;
+        width: 350px;
+        margin-left: 15px;
+    }
+    .box{
+        margin-bottom: 20px;
+        width: 40%;
+        height:310px;
+    }
+    .box2{
+        margin: 0 50px 20px 0;
+    }
+    .color2{
+        background: none;
+    }
+    .box2:hover .color2{
+        background: linear-gradient(to left,#ffe94a 20%,#faebc0);
+    }
+    .feature-image{
+        height: 50px;
+        width: 60px;
+    }
+    .box-feature{
+        font-size: 20px;
+    }
+    .feature-explain{
+        font-size: 11px;
+    }
+    .part{
+        width: 30%;
+    }
+    .part2{
+        margin: 0 30px;
+    }
+    .num{
+        margin-right: 36%;
+    }
+    .mechanism-title{
+        font-size: 19px;
+    }
+    .mechanism-explain{
+        font-size: 10px;
+    }
+    .area{
+        width: 50%;
+        margin:0px;
+    }
+    .area2{
+        margin:0 ;
+    }
+    .area-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .space{
+        height: 270px;
+    }
+    .last-image{
+        margin-top: 35px;
+    }
+    .footer-image{
+        height: 300px;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .title{
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    .pargraph{
+        font-size: 17px;
+    }
+    .image{
+        margin-top: 60px;
+    }
+    .img{
+        height: 313px;
+        width: 374px;
+        margin-left: 15px;
+    }
+    .box{
+        margin-bottom: 20px;
+        width: 40%;
+        height:270px;
+    }
+    .box1{
+        margin-left: 30px;
+    }
+    .feature-image{
+        height: 50px;
+        width: 60px;
+    }
+    .box-feature{
+        font-size: 20px;
+    }
+    .feature-explain{
+        font-size: 11px;
+    }
+    .box2{
+        margin: 0 0 20px 0;
+    }
+    .color2{
+        background: none;
+    }
+    .box2:hover .color2{
+        background: linear-gradient(to left,#ffe94a 20%,#faebc0);
+    }
+    .part{
+        width: 30%;
+    }
+    .num{
+        margin-right: 36%;
+    }
+    .mechanism-title{
+        font-size: 19px;
+    }
+    .mechanism-explain{
+        font-size: 10px;
+    }
+    .area{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .area2{
+        margin:0 0 20px 0;
+    }
+    .area-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .space{
+        height: 270px;
+    }
+    .last-image{
+        margin-top: 35px;
+    }
+    .footer-image{
+        height: 300px;
+    }  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .img {
+        height: 390px;
+        width: 390px;
+        margin-left: 35px;
+    }
+    .content{
+        padding-right: 8%;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .pargraph{
+        font-size: 17px;
+    }
+}
